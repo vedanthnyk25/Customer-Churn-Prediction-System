@@ -26,22 +26,23 @@ The project uses the Telco Customer Churn dataset which includes information abo
 ```bash
 git clone https://github.com/yourusername/customer-churn-prediction.git
 cd customer-churn-prediction
+```
 
 2. Create a virtual environment (optional but recommended):
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 3. Install required packages:
 ```bash
 pip install -r requirements.txt
-
+```
 ## Usage
 Ensure you have the dataset file "customer_churn.csv" in your working directory
 Run the Jupyter notebook:
 ```bash
 jupyter notebook notebooks/customer_churn_analysis.ipynb
-
+```
 ## Model Performance
 The Random Forest model achieved the following metrics on the test set:
 
