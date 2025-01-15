@@ -21,7 +21,16 @@ The project uses the Telco Customer Churn dataset which includes information abo
 
 ## Project Structure
 ```
-├── dataset/ │ └── customer_churn.csv ├── models/ │ ├── customer_churn_model.pkl │ └── encoders.pkl ├── notebooks/ │ └── customer_churn_analysis.ipynb ├── requirements.txt └── README.md
+.
+├── dataset/
+│   └── customer_churn.csv
+├── models/
+│   ├── customer_churn_model.pkl
+│   └── encoders.pkl
+├── notebooks/
+│   └── customer_churn_analysis.ipynb
+├── requirements.txt
+└── README.md
 ```
 ## Installation
 1. Clone the repository:
