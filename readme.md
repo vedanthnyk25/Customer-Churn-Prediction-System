@@ -20,7 +20,9 @@ The project uses the Telco Customer Churn dataset which includes information abo
 - Billing information (monthly charges, total charges)
 
 ## Project Structure
+```
 ├── dataset/ │ └── customer_churn.csv ├── models/ │ ├── customer_churn_model.pkl │ └── encoders.pkl ├── notebooks/ │ └── customer_churn_analysis.ipynb ├── requirements.txt └── README.md
+```
 ## Installation
 1. Clone the repository:
 ```bash
@@ -46,7 +48,7 @@ jupyter notebook notebooks/customer_churn_analysis.ipynb
 ## Model Performance
 The Random Forest model achieved the following metrics on the test set:
 
-Accuracy: ~80%
+Accuracy: ~85%
 Detailed classification metrics available in the notebook
 
 ## Contributing
