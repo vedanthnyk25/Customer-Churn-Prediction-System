@@ -20,14 +20,7 @@ The project uses the Telco Customer Churn dataset which includes information abo
 - Billing information (monthly charges, total charges)
 
 ## Project Structure
-├── models/
-│   ├── customer_churn_model.pkl
-│   └── encoders.pkl
-├── notebooks/
-│   └── customer_churn_analysis.ipynb
-├── requirements.txt
-└── README.md
-
+├── dataset/ │ └── customer_churn.csv ├── models/ │ ├── customer_churn_model.pkl │ └── encoders.pkl ├── notebooks/ │ └── customer_churn_analysis.ipynb ├── requirements.txt └── README.md
 ## Installation
 1. Clone the repository:
 ```bash
@@ -48,3 +41,24 @@ Ensure you have the dataset file "customer_churn.csv" in your working directory
 Run the Jupyter notebook:
 ```bash
 jupyter notebook notebooks/customer_churn_analysis.ipynb
+
+## Model Performance
+The Random Forest model achieved the following metrics on the test set:
+
+Accuracy: ~80%
+Detailed classification metrics available in the notebook
+
+## Contributing
+
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+#License
+This project is licensed under the MIT License - see the LICENSE file for details
+Acknowledgments
+
+Dataset provided by IBM Sample Data Sets
+Special thanks to the scikit-learn and imbalanced-learn communities
